@@ -10,7 +10,7 @@ time_t getTimeStamps2()
 {
     time_t timep;
     time(&timep);
-    cout<<"timestamps:"<<timep<<endl;
+//     cout<<"timestamps:"<<timep<<endl;
     return timep;
 }
 
