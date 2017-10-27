@@ -13,10 +13,8 @@ Change the value of  `CamURL`   to your own in the main function.
 1. install C++11 complier
 
    ```shell
-   $sudo apt-get install gcc g++ 
+   $ sudo apt-get install gcc g++ 
    ```
-
-   ​
 
 2. install Pangolin
 
@@ -34,19 +32,13 @@ Change the value of  `CamURL`   to your own in the main function.
    $ sudo make install
    ```
 
-   ​
-
 3. install OpenCV
-
-   ​
 
 4. install Eigen3.1.0
 
    ```shell
    $ sudo apt-get install libeigen3-dev 
    ```
-
-   ​
 
 5. install BLAS and LAPCAK
 
@@ -55,14 +47,13 @@ Change the value of  `CamURL`   to your own in the main function.
    $ sudo apt-get install liblapack-dev  
    ```
 
-   ​
 
 ## Build
 
 ```shell
 $ cd ORB_SLAM_WITH_WEBCAM2/
 $ mkdir build
-$ cd build
+$ cd build/
 $ cmake ..
 $ make
 ```
